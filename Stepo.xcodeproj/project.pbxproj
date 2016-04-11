@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4FA1461CBBA08100F25481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA1451CBBA08100F25481 /* AppDelegate.swift */; };
+		8B4FA1481CBBA08100F25481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA1471CBBA08100F25481 /* ViewController.swift */; };
+		8B4FA14B1CBBA08100F25481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4FA1491CBBA08100F25481 /* Main.storyboard */; };
+		8B4FA14E1CBBA08100F25481 /* Stepo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA14C1CBBA08100F25481 /* Stepo.xcdatamodeld */; };
+		8B4FA1501CBBA08100F25481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4FA14F1CBBA08100F25481 /* Assets.xcassets */; };
+		8B4FA1531CBBA08100F25481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4FA1511CBBA08100F25481 /* LaunchScreen.storyboard */; };
+		8B4FA15E1CBBA08100F25481 /* StepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA15D1CBBA08100F25481 /* StepoTests.swift */; };
+		8B4FA1691CBBA08100F25481 /* StepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA1681CBBA08100F25481 /* StepoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4FA15A1CBBA08100F25481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4FA13A1CBBA08100F25481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4FA1411CBBA08100F25481;
+			remoteInfo = Stepo;
+		};
+		8B4FA1651CBBA08100F25481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4FA13A1CBBA08100F25481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4FA1411CBBA08100F25481;
+			remoteInfo = Stepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4FA1421CBBA08100F25481 /* Stepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4FA1451CBBA08100F25481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B4FA1471CBBA08100F25481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B4FA14A1CBBA08100F25481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B4FA14D1CBBA08100F25481 /* Stepo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stepo.xcdatamodel; sourceTree = "<group>"; };
+		8B4FA14F1CBBA08100F25481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4FA1521CBBA08100F25481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B4FA1541CBBA08100F25481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4FA1591CBBA08100F25481 /* StepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4FA15D1CBBA08100F25481 /* StepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepoTests.swift; sourceTree = "<group>"; };
+		8B4FA15F1CBBA08100F25481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4FA1641CBBA08100F25481 /* StepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4FA1681CBBA08100F25481 /* StepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepoUITests.swift; sourceTree = "<group>"; };
+		8B4FA16A1CBBA08100F25481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4FA13F1CBBA08100F25481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FA1561CBBA08100F25481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FA1611CBBA08100F25481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4FA1391CBBA08100F25481 = {
+			isa = PBXGroup;
+			children = (
+				8B4FA1441CBBA08100F25481 /* Stepo */,
+				8B4FA15C1CBBA08100F25481 /* StepoTests */,
+				8B4FA1671CBBA08100F25481 /* StepoUITests */,
+				8B4FA1431CBBA08100F25481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4FA1431CBBA08100F25481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FA1421CBBA08100F25481 /* Stepo.app */,
+				8B4FA1591CBBA08100F25481 /* StepoTests.xctest */,
+				8B4FA1641CBBA08100F25481 /* StepoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4FA1441CBBA08100F25481 /* Stepo */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FA1451CBBA08100F25481 /* AppDelegate.swift */,
+				8B4FA1471CBBA08100F25481 /* ViewController.swift */,
+				8B4FA1491CBBA08100F25481 /* Main.storyboard */,
+				8B4FA14F1CBBA08100F25481 /* Assets.xcassets */,
+				8B4FA1511CBBA08100F25481 /* LaunchScreen.storyboard */,
+				8B4FA1541CBBA08100F25481 /* Info.plist */,
+				8B4FA14C1CBBA08100F25481 /* Stepo.xcdatamodeld */,
+			);
+			path = Stepo;
+			sourceTree = "<group>";
+		};
+		8B4FA15C1CBBA08100F25481 /* StepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FA15D1CBBA08100F25481 /* StepoTests.swift */,
+				8B4FA15F1CBBA08100F25481 /* Info.plist */,
+			);
+			path = StepoTests;
+			sourceTree = "<group>";
+		};
+		8B4FA1671CBBA08100F25481 /* StepoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FA1681CBBA08100F25481 /* StepoUITests.swift */,
+				8B4FA16A1CBBA08100F25481 /* Info.plist */,
+			);
+			path = StepoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4FA1411CBBA08100F25481 /* Stepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4FA16D1CBBA08100F25481 /* Build configuration list for PBXNativeTarget "Stepo" */;
+			buildPhases = (
+				8B4FA13E1CBBA08100F25481 /* Sources */,
+				8B4FA13F1CBBA08100F25481 /* Frameworks */,
+				8B4FA1401CBBA08100F25481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stepo;
+			productName = Stepo;
+			productReference = 8B4FA1421CBBA08100F25481 /* Stepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B4FA1581CBBA08100F25481 /* StepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4FA1701CBBA08100F25481 /* Build configuration list for PBXNativeTarget "StepoTests" */;
+			buildPhases = (
+				8B4FA1551CBBA08100F25481 /* Sources */,
+				8B4FA1561CBBA08100F25481 /* Frameworks */,
+				8B4FA1571CBBA08100F25481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4FA15B1CBBA08100F25481 /* PBXTargetDependency */,
+			);
+			name = StepoTests;
+			productName = StepoTests;
+			productReference = 8B4FA1591CBBA08100F25481 /* StepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B4FA1631CBBA08100F25481 /* StepoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4FA1731CBBA08100F25481 /* Build configuration list for PBXNativeTarget "StepoUITests" */;
+			buildPhases = (
+				8B4FA1601CBBA08100F25481 /* Sources */,
+				8B4FA1611CBBA08100F25481 /* Frameworks */,
+				8B4FA1621CBBA08100F25481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4FA1661CBBA08100F25481 /* PBXTargetDependency */,
+			);
+			name = StepoUITests;
+			productName = StepoUITests;
+			productReference = 8B4FA1641CBBA08100F25481 /* StepoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4FA13A1CBBA08100F25481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "POSTECH Cite";
+				TargetAttributes = {
+					8B4FA1411CBBA08100F25481 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8B4FA1581CBBA08100F25481 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8B4FA1411CBBA08100F25481;
+					};
+					8B4FA1631CBBA08100F25481 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8B4FA1411CBBA08100F25481;
+					};
+				};
+			};
+			buildConfigurationList = 8B4FA13D1CBBA08100F25481 /* Build configuration list for PBXProject "Stepo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4FA1391CBBA08100F25481;
+			productRefGroup = 8B4FA1431CBBA08100F25481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4FA1411CBBA08100F25481 /* Stepo */,
+				8B4FA1581CBBA08100F25481 /* StepoTests */,
+				8B4FA1631CBBA08100F25481 /* StepoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4FA1401CBBA08100F25481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FA1531CBBA08100F25481 /* LaunchScreen.storyboard in Resources */,
+				8B4FA1501CBBA08100F25481 /* Assets.xcassets in Resources */,
+				8B4FA14B1CBBA08100F25481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FA1571CBBA08100F25481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FA1621CBBA08100F25481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4FA13E1CBBA08100F25481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FA14E1CBBA08100F25481 /* Stepo.xcdatamodeld in Sources */,
+				8B4FA1481CBBA08100F25481 /* ViewController.swift in Sources */,
+				8B4FA1461CBBA08100F25481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FA1551CBBA08100F25481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FA15E1CBBA08100F25481 /* StepoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FA1601CBBA08100F25481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FA1691CBBA08100F25481 /* StepoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4FA15B1CBBA08100F25481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4FA1411CBBA08100F25481 /* Stepo */;
+			targetProxy = 8B4FA15A1CBBA08100F25481 /* PBXContainerItemProxy */;
+		};
+		8B4FA1661CBBA08100F25481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4FA1411CBBA08100F25481 /* Stepo */;
+			targetProxy = 8B4FA1651CBBA08100F25481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B4FA1491CBBA08100F25481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4FA14A1CBBA08100F25481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B4FA1511CBBA08100F25481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4FA1521CBBA08100F25481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B4FA16B1CBBA08100F25481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B4FA16C1CBBA08100F25481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4FA16E1CBBA08100F25481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cite.Stepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B4FA16F1CBBA08100F25481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cite.Stepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B4FA1711CBBA08100F25481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cite.StepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stepo.app/Stepo";
+			};
+			name = Debug;
+		};
+		8B4FA1721CBBA08100F25481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cite.StepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stepo.app/Stepo";
+			};
+			name = Release;
+		};
+		8B4FA1741CBBA08100F25481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cite.StepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stepo;
+			};
+			name = Debug;
+		};
+		8B4FA1751CBBA08100F25481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cite.StepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stepo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4FA13D1CBBA08100F25481 /* Build configuration list for PBXProject "Stepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FA16B1CBBA08100F25481 /* Debug */,
+				8B4FA16C1CBBA08100F25481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4FA16D1CBBA08100F25481 /* Build configuration list for PBXNativeTarget "Stepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FA16E1CBBA08100F25481 /* Debug */,
+				8B4FA16F1CBBA08100F25481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4FA1701CBBA08100F25481 /* Build configuration list for PBXNativeTarget "StepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FA1711CBBA08100F25481 /* Debug */,
+				8B4FA1721CBBA08100F25481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4FA1731CBBA08100F25481 /* Build configuration list for PBXNativeTarget "StepoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FA1741CBBA08100F25481 /* Debug */,
+				8B4FA1751CBBA08100F25481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B4FA14C1CBBA08100F25481 /* Stepo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B4FA14D1CBBA08100F25481 /* Stepo.xcdatamodel */,
+			);
+			currentVersion = 8B4FA14D1CBBA08100F25481 /* Stepo.xcdatamodel */;
+			path = Stepo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B4FA13A1CBBA08100F25481 /* Project object */;
+}
