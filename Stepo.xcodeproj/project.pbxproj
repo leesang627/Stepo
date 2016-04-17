@@ -54,7 +54,7 @@
 		8B4FA16A1CBBA08100F25481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lucky Strike.mp3"; sourceTree = "<group>"; };
 		8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Uptown Funk.mp3"; sourceTree = "<group>"; };
-		8BE135681CC3E1630053C9CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8BE135681CC3E1630053C9CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Stepo/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,7 @@
 				8B4FA15C1CBBA08100F25481 /* StepoTests */,
 				8B4FA1671CBBA08100F25481 /* StepoUITests */,
 				8B4FA1431CBBA08100F25481 /* Products */,
+				8BE135681CC3E1630053C9CC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +106,6 @@
 		8B4FA1441CBBA08100F25481 /* Stepo */ = {
 			isa = PBXGroup;
 			children = (
-				8BE135681CC3E1630053C9CC /* README.md */,
 				8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */,
 				8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */,
 				8B4FA1451CBBA08100F25481 /* AppDelegate.swift */,
