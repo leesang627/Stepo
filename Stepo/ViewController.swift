@@ -32,9 +32,9 @@ class ViewController: UIViewController {
     var spm = 0
     var musicBPM = 120
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         musicGet("Lucky Strike")
         
         stopLuckyButton.enabled = false
@@ -100,6 +100,8 @@ class ViewController: UIViewController {
     {
         let musicName = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(soundName, ofType: "mp3")!)
         do{
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
             audioPlayer = try AVAudioPlayer(contentsOfURL: musicName)
             audioPlayer.enableRate=true
         }catch {
@@ -119,7 +121,6 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
