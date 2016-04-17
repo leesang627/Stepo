@@ -17,7 +17,6 @@
 		8B4FA1691CBBA08100F25481 /* StepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA1681CBBA08100F25481 /* StepoUITests.swift */; };
 		8B7E3CCA1CC3A2B50034644C /* Lucky Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */; };
 		8B7E3CCC1CC3A2C60034644C /* Uptown Funk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */; };
-		8BE135691CC3E1630053C9CC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8BE135681CC3E1630053C9CC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		8B4FA16A1CBBA08100F25481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lucky Strike.mp3"; sourceTree = "<group>"; };
 		8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Uptown Funk.mp3"; sourceTree = "<group>"; };
-		8BE135681CC3E1630053C9CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Stepo/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +87,6 @@
 				8B4FA15C1CBBA08100F25481 /* StepoTests */,
 				8B4FA1671CBBA08100F25481 /* StepoUITests */,
 				8B4FA1431CBBA08100F25481 /* Products */,
-				8BE135681CC3E1630053C9CC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -277,7 +274,6 @@
 			files = (
 				8B4FA14E1CBBA08100F25481 /* Stepo.xcdatamodeld in Sources */,
 				8B4FA1481CBBA08100F25481 /* ViewController.swift in Sources */,
-				8BE135691CC3E1630053C9CC /* README.md in Sources */,
 				8B4FA1461CBBA08100F25481 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
