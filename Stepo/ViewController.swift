@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet var timerLabel: UILabel!
     @IBOutlet var spmLabel: UILabel!
     @IBOutlet var rateLabel: UILabel!
+    @IBOutlet var bpmLabel: UILabel!
 
     var audioPlayer = AVAudioPlayer()
     var pedometer = CMPedometer()
@@ -60,6 +61,7 @@ class ViewController: UIViewController {
         }
         spmLabel.text="\(spm)"
         timerLabel.text="\(counter)"
+        bpmLabel.text="\(musicBPM)"
         rateLabel.text="\(spmToRate(spm, bpm: musicBPM))"
         audioPlayer.rate = spmToRate(spm, bpm: musicBPM)
         counter=counter+1
