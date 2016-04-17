@@ -15,6 +15,8 @@
 		8B4FA1531CBBA08100F25481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4FA1511CBBA08100F25481 /* LaunchScreen.storyboard */; };
 		8B4FA15E1CBBA08100F25481 /* StepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA15D1CBBA08100F25481 /* StepoTests.swift */; };
 		8B4FA1691CBBA08100F25481 /* StepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA1681CBBA08100F25481 /* StepoUITests.swift */; };
+		8B7E3CCA1CC3A2B50034644C /* Lucky Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */; };
+		8B7E3CCC1CC3A2C60034644C /* Uptown Funk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8B4FA1641CBBA08100F25481 /* StepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4FA1681CBBA08100F25481 /* StepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepoUITests.swift; sourceTree = "<group>"; };
 		8B4FA16A1CBBA08100F25481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lucky Strike.mp3"; sourceTree = "<group>"; };
+		8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Uptown Funk.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		8B4FA1441CBBA08100F25481 /* Stepo */ = {
 			isa = PBXGroup;
 			children = (
+				8B7E3CC91CC3A2B50034644C /* Lucky Strike.mp3 */,
+				8B7E3CCB1CC3A2C60034644C /* Uptown Funk.mp3 */,
 				8B4FA1451CBBA08100F25481 /* AppDelegate.swift */,
 				8B4FA1471CBBA08100F25481 /* ViewController.swift */,
 				8B4FA1491CBBA08100F25481 /* Main.storyboard */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7E3CCC1CC3A2C60034644C /* Uptown Funk.mp3 in Resources */,
+				8B7E3CCA1CC3A2B50034644C /* Lucky Strike.mp3 in Resources */,
 				8B4FA1531CBBA08100F25481 /* LaunchScreen.storyboard in Resources */,
 				8B4FA1501CBBA08100F25481 /* Assets.xcassets in Resources */,
 				8B4FA14B1CBBA08100F25481 /* Main.storyboard in Resources */,
@@ -486,6 +494,7 @@
 				8B4FA16F1CBBA08100F25481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B4FA1701CBBA08100F25481 /* Build configuration list for PBXNativeTarget "StepoTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				8B4FA1721CBBA08100F25481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B4FA1731CBBA08100F25481 /* Build configuration list for PBXNativeTarget "StepoUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				8B4FA1751CBBA08100F25481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
