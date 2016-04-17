@@ -31,8 +31,6 @@ class ViewController: UIViewController {
     var oldSteps = 0
     var spm = 0
     var musicBPM = 120
-    var a = 0
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
